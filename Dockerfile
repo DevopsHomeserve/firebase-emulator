@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:18-alpine
 
 # install dependencies
 RUN apk -U --no-cache add bash openjdk11
